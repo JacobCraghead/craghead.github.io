@@ -53,6 +53,7 @@ header .site-title {
   font-weight: bolder;
   line-height: 110%;
   color: var(--text-dm-site-title);
+  font-family: "Roland";
 }
 
 #bio {

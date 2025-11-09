@@ -30,7 +30,7 @@ html,
 body {
   color: var(--text-dm-secondary);
   background-color: var(--bg-dm-primary);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Calibri", sans-serif;
   line-height: 2rem;
 }
 

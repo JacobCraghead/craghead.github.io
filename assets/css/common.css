@@ -87,3 +87,8 @@ hr {
     font-size: 0.8rem !important;
   }
 }
+
+@font-face {
+  font-family: Roland;
+  src: url(assets/RolandRegular.ttf);
+}

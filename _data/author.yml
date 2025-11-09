@@ -1,11 +1,7 @@
 name: Jacob Craghead
 dp: assets/images/snargle.jpg
-description: "
-  <p>
-    (left blank for now)
-  </p>
-"
+description: ""
 email: dev_sharad@outlook.com
 contact:
   - title: github
-    url: https://github.com/sharadcodes
+    url: https://github.com/jacobcraghead

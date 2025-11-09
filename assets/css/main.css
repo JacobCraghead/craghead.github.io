@@ -56,6 +56,10 @@ header .site-title {
   font-family: "Roland";
 }
 
+header .site-title img {
+  width: 15%;
+}
+
 #bio {
   display: flex;
   justify-content: space-between;

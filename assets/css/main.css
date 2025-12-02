@@ -4,7 +4,7 @@
   /* Themes */
   --text-dm-site-title: rgb(89, 0, 168);
   --text-dm-primary: #5a7ea3;
-  --text-dm-secondary: #001b34;
+  --text-dm-secondary: #00ff55;
   --dm-contrast: rgb(89, 0, 168);
   --bg-dm-primary: #e8e5d6;
   --bg-dm-secondary: #7a5d25;
@@ -33,6 +33,9 @@ body {
   font-family: "Calibri", sans-serif;
   line-height: 2rem;
   background-image: url(/assets/images/photo_2025-11-09_23-06-02---TGQ.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 main {
@@ -69,6 +72,7 @@ header .site-title img {
   padding-top: 1rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-bottom: 1rem;
   border-radius: 50px;
   background-image: url(/assets/images/photo_2025-11-09_23-06-01---TGQ.jpg);
 }
@@ -80,6 +84,9 @@ header .site-title img {
 /* #bio-text-and-social-links {} */
 #bio-text {
   line-height: 140%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50px;
+  padding: 1rem;
 }
 
 #bio-text a {

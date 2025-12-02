@@ -2,10 +2,10 @@
 
 :root {
   /* Themes */
-  --text-dm-site-title: violet;
-  --text-dm-primary: #a4d3ff;
-  --text-dm-secondary: #a4d3ff;
-  --dm-contrast: violet;
+  --text-dm-site-title: rgb(89, 0, 168);
+  --text-dm-primary: #5a7ea3;
+  --text-dm-secondary: #001b34;
+  --dm-contrast: rgb(89, 0, 168);
   --bg-dm-primary: #e8e5d6;
   --bg-dm-secondary: #7a5d25;
   /* Other vars */
@@ -32,6 +32,7 @@ body {
   background-color: var(--bg-dm-primary);
   font-family: "Calibri", sans-serif;
   line-height: 2rem;
+  background-image: url(/assets/images/photo_2025-11-09_23-06-02---TGQ.jpg);
 }
 
 main {
@@ -65,10 +66,15 @@ header .site-title img {
   justify-content: space-between;
   align-items: center;
   gap: 3rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 50px;
+  background-image: url(/assets/images/photo_2025-11-09_23-06-01---TGQ.jpg);
 }
 /* #bio-avatar-wrapper {} */
 #bio-avatar {
-  width: 180px;
+  width: 440px;
   border-radius: 50%;
 }
 /* #bio-text-and-social-links {} */

@@ -13,7 +13,6 @@ body {
 }
 
 header {
-  /*background-color: var(--debug-background);*/
   background-image: url("/assets/images/background_header.jpg");
   background-repeat: no-repeat;
   background-position: center;
@@ -26,13 +25,6 @@ header {
 }
 
 header div {
-  /*
-    border-color: var(--border);
-    border-radius: var(--border-radius);
-    border-width: var(--border-width);
-    border-style: var(--border-style);
-    */
-
   width: fit-content;
   float: right;
   margin: 1rem;
@@ -60,6 +52,13 @@ footer h3 {
   color: var(--copyright-color);
 }
 
+footer h6 {
+  position: fixed;
+  bottom: 0rem;
+  right: 1rem;
+  color: var(--copyright-color);
+}
+
 #demoVideo {
   width: 70%;
   float: right;
@@ -78,9 +77,6 @@ footer h3 {
 }
 
 #logo {
-  /*background-color: var(--debug-background);
-    border-color: var(--debug-border);
-    border-style: var(--debug-border-style);*/
   background-color: var(--smoke);
   border-color: var(--border);
   border-radius: var(--border-radius);
